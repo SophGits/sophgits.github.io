@@ -1,0 +1,5 @@
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
+
+name: Sophie's personal pages
+markdown: redcarpet
+pygments: true
