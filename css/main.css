@@ -24,6 +24,7 @@ p {
 
 a         { color: #309959;
             text-decoration: none;
+            font-size: 14px;
           }
 a:hover   { color: #00a; }
 a:visited { color: #a0a; }
