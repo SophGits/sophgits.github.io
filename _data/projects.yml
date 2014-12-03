@@ -6,9 +6,9 @@
   url: http://sophgits.github.io/crossword
   tech: 'HTML, CSS, Backbone.js'
 - name: Idea submission form
-  url: idea-form.herokuapp.com
+  url: http://idea-form.herokuapp.com
   tech: 'HTML, Sass, jQuery'
 - name: Comic Reader
-  url: comic-reader.herokuapp.com
+  url: http://comic-reader.herokuapp.com
   tech: 'Haml, Sass, JavaScript, PostgreSQL, Ruby on Rails'
   features: 'Authentication'
