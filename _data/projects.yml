@@ -5,3 +5,5 @@
   url: http://sophgits.github.io/crossword
 - name: Idea submission form
   url: idea-form.herokuapp.com
+- name: Comic Reader
+  url: comic-reader.herokuapp.com
