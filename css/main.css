@@ -49,6 +49,7 @@ p span{
 }
 li.links{
   border-bottom: 1px solid lightgray;
+  list-style: none;
 }
 .posts {
   list-style-type: none;
