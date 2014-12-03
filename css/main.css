@@ -39,6 +39,7 @@ ul{
 ul li{
   font-size: 12px;
   padding: 10px 0 10px 20px;
+  list-style: none;
 }
 /* Home *********************************************************/
 
