@@ -3,7 +3,7 @@
   <li>
       <a  href="{{ link.url }}">{{ link.name }}</a>
       {% if link.notes %}
-        <li>{{ link.notes }}<li>
+        <ul><li>{{ link.notes }}<li></ul>
       {% endif %}
   </li>
 {% endfor %}
