@@ -22,12 +22,12 @@ p {
   line-height: 0.8em;
 }
 
-a         { color: #309959;
+a         { color: #00a;
             text-decoration: none;
             font-size: 14px;
           }
-a:hover   { color: #00a; }
-a:visited { color: #a0a; }
+a:hover   { color: #309959; }
+/*a:visited { color: #a0a; }*/
 
 h2{
   font-size: 14px;
@@ -39,7 +39,7 @@ ul{
 ul li{
   font-size: 12px;
   padding: 10px 0 10px 20px;
-  list-style: none;
+  list-style-type: none;
 }
 /* Home *********************************************************/
 
