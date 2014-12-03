@@ -2,6 +2,8 @@
 {% for link in site.data[include.links] %}
   <li>
       <a  href="{{ link.url }}">{{ link.name }}</a>
-      <li>{{ link.notes }}<li>
+      {% if link.notes %}
+        <li>{{ link.notes }}<li>
+      {% endif %}
   </li>
 {% endfor %}
