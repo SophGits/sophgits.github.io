@@ -2,8 +2,14 @@
 {% for link in site.data[include.links] %}
   <li>
       <a  href="{{ link.url }}">{{ link.name }}</a>
+      {% if link.tech %}
+        <p><span>Built with: </span>{{ link.tech }}</p>
+      {% endif %}
+      {% if link.features %}
+        <p><span>Features: </span>{{ link.tech }}</p>
+      {% endif %}
       {% if link.notes %}
-        <ul><li>{{ link.notes }}<li></ul>
+        <p><span>Notes: </span>{{ link.notes }}</p>
       {% endif %}
   </li>
 {% endfor %}

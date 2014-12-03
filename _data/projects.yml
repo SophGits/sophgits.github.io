@@ -1,9 +1,14 @@
 - name: Memory cards game
   url: http://sophgits.github.io/cardflip/
+  tech: 'HTML, CSS3, jQuery'
   notes: View in Chrome
 - name: Crossword puzzle
   url: http://sophgits.github.io/crossword
+  tech: 'HTML, CSS, Backbone.js'
 - name: Idea submission form
   url: idea-form.herokuapp.com
+  tech: 'HTML, Sass, jQuery'
 - name: Comic Reader
   url: comic-reader.herokuapp.com
+  tech: 'Haml, Sass, JavaScript, PostgreSQL, Ruby on Rails'
+  features: 'Authentication'
