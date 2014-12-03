@@ -1,6 +1,6 @@
 <h2>{{ include.title }}</h2>
 {% for link in site.data[include.links] %}
-  <li>
+  <li class="links">
       <a  href="{{ link.url }}">{{ link.name }}</a>
       {% if link.tech %}
         <p><span>Built with: </span>{{ link.tech }}</p>

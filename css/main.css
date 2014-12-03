@@ -45,6 +45,9 @@ ul li{
 p span{
   font-weight: bold;
 }
+li.links:after{
+  border-bottom: 1px solid lightgray;
+}
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
