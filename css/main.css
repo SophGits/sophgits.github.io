@@ -20,7 +20,8 @@ h1 { margin-bottom: 1em; }
 p {
   margin: 1em 0;
   line-height: 0.8em;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  color: gray;
 }
 
 a         { color: #00a;
