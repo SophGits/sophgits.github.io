@@ -1,50 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<!-- ---
+layout: default
+title: Your New Jekyll Site
+---
 
-  <div class="site">
-
-    <div class="header">
-      <h1 class="title"><a href="/">Sophie's personal pages</a></h1>
-      <a class="extra" href="/">home</a>
-    </div>
-
-    <div>
-      <h2>Contact</h2>
-      <li>
-        <a href="mailto:sophie.chitty1@gmail.com">sophie.chitty1@gmail.com</a>
-      </li>
-      <br />
-      <h2>Projects</h2>
-      <li>
-        <a  href="https://idea-form.herokuapp.com/">Idea submission form</a>
-        <p>Uses: HTML, Sass, jQuery, Font Awesome</p>
-        <p>Features: Changes form based on initial user choice</p>
-      </li>
-      <li>
-        <a  href="comic-reader.herokuapp.com">Comic reader</a>
-        <p>Uses: Haml, Sass, PostgreSQL, Ruby on Rails</p>
-        <p>Features: Authenitication, up-voting, messaging between users, Regexp</p>
-      </li>
-
-      <li>
-        <a  href="http://sophgits.github.io/cardflip/">Memory game</a>
-        <p>Uses: HTML, CSS3, jQuery</p>
-        <p>Features: </p>
-        <p>Notes: Best viewed in Chrome</p>
-      </li>
-    </div>
-
-    <div class="footer"></div>
-
-  </div><!-- site -->
-
-</body>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div> -->
