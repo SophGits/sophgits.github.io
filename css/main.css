@@ -46,7 +46,7 @@ ul li{
 p span{
   font-weight: bold;
 }
-li.links:after{
+li.links{
   border-bottom: 1px solid lightgray;
 }
 .posts {
