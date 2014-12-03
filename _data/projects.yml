@@ -1,0 +1,7 @@
+- name: Memory cards game
+  url: http://sophgits.github.io/cardflip/
+  notes: View in Chrome
+- name: Crossword puzzle
+  url: http://sophgits.github.io/crossword
+- name: Idea submission form
+  url: idea-form.herokuapp.com
