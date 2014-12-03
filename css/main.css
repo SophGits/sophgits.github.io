@@ -32,10 +32,12 @@ h2{
   font-size: 14px;
   line-height: 18px
 }
+ul{
+  list-style-type: none;
+}
 ul li{
   font-size: 12px;
   padding: 10px 0 10px 20px;
-  list-style-type: none;
 }
 /* Home *********************************************************/
 
