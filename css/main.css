@@ -50,6 +50,7 @@ p span{
 }
 li.links{
   border-bottom: 1px solid lightgray;
+  margin-bottom: 0.8em;
   list-style: none;
 }
 .posts {
