@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; background: aliceblue;}
+html, body { height: 100%;}
 
 body {
   background-color: #FFF;
@@ -13,12 +13,11 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h1, h2, h3, h4, h5, h6 {font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 
-a         { color: #00a;
+a         { color: #00a; /*blue*/
             text-decoration: none;
             font-size: 1em;
           }
@@ -40,12 +39,11 @@ ul li{
 /* Home *********************************************************/
 
 li.links{
-  /*border-bottom: 1px solid lightgray;*/
   margin: 0.8em 0 1.6em 0;
   list-style: none;
 }
 .links p{
-  line-height: 0.7em;
+  line-height: 1.4em;
   font-size: 0.8em;
   color: gray;
 }
@@ -104,11 +102,8 @@ p span{
 }
 
 .footer {
-  font-size: 80%;
-  color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
-  overflow: hidden;
 }
 .footer .contact {
   float: left;
@@ -124,33 +119,4 @@ p span{
 }
 .footer .rss img {
   border: 0;
-}
-
-/* Posts **************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-.post pre code {
-  border: none;
-}
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-.post pre.terminal code {
-  background-color: #333;
 }
